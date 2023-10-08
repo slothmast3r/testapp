@@ -14,7 +14,7 @@ package-lock.json
 
 # production
 /build
-
+.env
 # misc
 .DS_Store
 *.pem
@@ -33,3 +33,24 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+node_modules/
+yarn-error.log/
+vendor/
+tmp/
+dist/
+.idea
+tmp-resolvers
+flow-typed
+yarn.lock
+javascript/**/migrations/
+typescript/**/migrations/
+misc/**/migrations/
+databases/**/migrations/
+experimental/**/*.db
+.next
+.vscode/
+.nuxt
+dev.db
+*.env*
