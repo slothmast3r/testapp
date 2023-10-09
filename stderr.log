@@ -1,0 +1,587 @@
+prisma:warn Prisma doesn't know which engines to download for the Linux distro "undefined". Falling back to Prisma engines built "debian".
+Please report your experience by creating an issue at https://github.com/prisma/prisma/issues so we can add your distro to the list of known supported distros.
+[next-auth][error][adapter_error_getUserByAccount] 
+https://next-auth.js.org/errors#adapter_error_getuserbyaccount 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `host474737_twitterCloneDeployed` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`. {
+  message: '\n' +
+    'Invalid `prisma.account.findUnique()` invocation:\n' +
+    '\n' +
+    '\n' +
+    'Authentication failed against database server at `localhost`, the provided database credentials for `host474737_twitterCloneDeployed` are not valid.\n' +
+    '\n' +
+    'Please make sure to provide valid database credentials for the database server at `localhost`.',
+  stack: 'PrismaClientInitializationError: \n' +
+    'Invalid `prisma.account.findUnique()` invocation:\n' +
+    '\n' +
+    '\n' +
+    'Authentication failed against database server at `localhost`, the provided database credentials for `host474737_twitterCloneDeployed` are not valid.\n' +
+    '\n' +
+    'Please make sure to provide valid database credentials for the database server at `localhost`.\n' +
+    '    at Cn.handleRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:7090)\n' +
+    '    at Cn.handleAndLogRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:6206)\n' +
+    '    at Cn.request (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:5926)\n' +
+    '    at async l (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:128:9968)\n' +
+    '    at async getUserByAccount (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@next-auth/prisma-adapter/dist/index.js:211:29)',
+  name: 'PrismaClientInitializationError'
+}
+[next-auth][error][OAUTH_CALLBACK_HANDLER_ERROR] 
+https://next-auth.js.org/errors#oauth_callback_handler_error 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `host474737_twitterCloneDeployed` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`. PrismaClientInitializationError: 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `host474737_twitterCloneDeployed` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`.
+    at Cn.handleRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:7090)
+    at Cn.handleAndLogRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:6206)
+    at Cn.request (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:5926)
+    at async l (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:128:9968)
+    at async getUserByAccount (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@next-auth/prisma-adapter/dist/index.js:211:29) {
+  name: 'GetUserByAccountError',
+  code: undefined
+}
+prisma:warn Prisma doesn't know which engines to download for the Linux distro "undefined". Falling back to Prisma engines built "debian".
+Please report your experience by creating an issue at https://github.com/prisma/prisma/issues so we can add your distro to the list of known supported distros.
+prisma:warn Prisma doesn't know which engines to download for the Linux distro "undefined". Falling back to Prisma engines built "debian".
+Please report your experience by creating an issue at https://github.com/prisma/prisma/issues so we can add your distro to the list of known supported distros.
+[next-auth][error][adapter_error_getUserByAccount] 
+https://next-auth.js.org/errors#adapter_error_getuserbyaccount 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `host474737.hostido.net.pl`, the provided database credentials for `host474737_twitterclone` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `host474737.hostido.net.pl`. {
+  message: '\n' +
+    'Invalid `prisma.account.findUnique()` invocation:\n' +
+    '\n' +
+    '\n' +
+    'Authentication failed against database server at `host474737.hostido.net.pl`, the provided database credentials for `host474737_twitterclone` are not valid.\n' +
+    '\n' +
+    'Please make sure to provide valid database credentials for the database server at `host474737.hostido.net.pl`.',
+  stack: 'PrismaClientInitializationError: \n' +
+    'Invalid `prisma.account.findUnique()` invocation:\n' +
+    '\n' +
+    '\n' +
+    'Authentication failed against database server at `host474737.hostido.net.pl`, the provided database credentials for `host474737_twitterclone` are not valid.\n' +
+    '\n' +
+    'Please make sure to provide valid database credentials for the database server at `host474737.hostido.net.pl`.\n' +
+    '    at Cn.handleRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:7090)\n' +
+    '    at Cn.handleAndLogRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:6206)\n' +
+    '    at Cn.request (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:5926)\n' +
+    '    at async l (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:128:9968)\n' +
+    '    at async getUserByAccount (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@next-auth/prisma-adapter/dist/index.js:211:29)',
+  name: 'PrismaClientInitializationError'
+}
+[next-auth][error][OAUTH_CALLBACK_HANDLER_ERROR] 
+https://next-auth.js.org/errors#oauth_callback_handler_error 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `host474737.hostido.net.pl`, the provided database credentials for `host474737_twitterclone` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `host474737.hostido.net.pl`. PrismaClientInitializationError: 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `host474737.hostido.net.pl`, the provided database credentials for `host474737_twitterclone` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `host474737.hostido.net.pl`.
+    at Cn.handleRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:7090)
+    at Cn.handleAndLogRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:6206)
+    at Cn.request (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:5926)
+    at async l (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:128:9968)
+    at async getUserByAccount (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@next-auth/prisma-adapter/dist/index.js:211:29) {
+  name: 'GetUserByAccountError',
+  code: undefined
+}
+[next-auth][error][adapter_error_getUserByAccount] 
+https://next-auth.js.org/errors#adapter_error_getuserbyaccount 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `host474737.hostido.net.pl`, the provided database credentials for `host474737_twitterclone` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `host474737.hostido.net.pl`. {
+  message: '\n' +
+    'Invalid `prisma.account.findUnique()` invocation:\n' +
+    '\n' +
+    '\n' +
+    'Authentication failed against database server at `host474737.hostido.net.pl`, the provided database credentials for `host474737_twitterclone` are not valid.\n' +
+    '\n' +
+    'Please make sure to provide valid database credentials for the database server at `host474737.hostido.net.pl`.',
+  stack: 'PrismaClientInitializationError: \n' +
+    'Invalid `prisma.account.findUnique()` invocation:\n' +
+    '\n' +
+    '\n' +
+    'Authentication failed against database server at `host474737.hostido.net.pl`, the provided database credentials for `host474737_twitterclone` are not valid.\n' +
+    '\n' +
+    'Please make sure to provide valid database credentials for the database server at `host474737.hostido.net.pl`.\n' +
+    '    at Cn.handleRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:7090)\n' +
+    '    at Cn.handleAndLogRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:6206)\n' +
+    '    at Cn.request (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:5926)\n' +
+    '    at async l (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:128:9968)\n' +
+    '    at async getUserByAccount (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@next-auth/prisma-adapter/dist/index.js:211:29)',
+  name: 'PrismaClientInitializationError'
+}
+[next-auth][error][OAUTH_CALLBACK_HANDLER_ERROR] 
+https://next-auth.js.org/errors#oauth_callback_handler_error 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `host474737.hostido.net.pl`, the provided database credentials for `host474737_twitterclone` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `host474737.hostido.net.pl`. PrismaClientInitializationError: 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `host474737.hostido.net.pl`, the provided database credentials for `host474737_twitterclone` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `host474737.hostido.net.pl`.
+    at Cn.handleRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:7090)
+    at Cn.handleAndLogRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:6206)
+    at Cn.request (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:5926)
+    at async l (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:128:9968)
+    at async getUserByAccount (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@next-auth/prisma-adapter/dist/index.js:211:29) {
+  name: 'GetUserByAccountError',
+  code: undefined
+}
+prisma:warn Prisma doesn't know which engines to download for the Linux distro "undefined". Falling back to Prisma engines built "debian".
+Please report your experience by creating an issue at https://github.com/prisma/prisma/issues so we can add your distro to the list of known supported distros.
+prisma:warn Prisma doesn't know which engines to download for the Linux distro "undefined". Falling back to Prisma engines built "debian".
+Please report your experience by creating an issue at https://github.com/prisma/prisma/issues so we can add your distro to the list of known supported distros.
+[next-auth][error][adapter_error_getUserByAccount] 
+https://next-auth.js.org/errors#adapter_error_getuserbyaccount 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `host474737_twitterclone` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`. {
+  message: '\n' +
+    'Invalid `prisma.account.findUnique()` invocation:\n' +
+    '\n' +
+    '\n' +
+    'Authentication failed against database server at `localhost`, the provided database credentials for `host474737_twitterclone` are not valid.\n' +
+    '\n' +
+    'Please make sure to provide valid database credentials for the database server at `localhost`.',
+  stack: 'PrismaClientInitializationError: \n' +
+    'Invalid `prisma.account.findUnique()` invocation:\n' +
+    '\n' +
+    '\n' +
+    'Authentication failed against database server at `localhost`, the provided database credentials for `host474737_twitterclone` are not valid.\n' +
+    '\n' +
+    'Please make sure to provide valid database credentials for the database server at `localhost`.\n' +
+    '    at Cn.handleRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:7090)\n' +
+    '    at Cn.handleAndLogRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:6206)\n' +
+    '    at Cn.request (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:5926)\n' +
+    '    at async l (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:128:9968)\n' +
+    '    at async getUserByAccount (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@next-auth/prisma-adapter/dist/index.js:211:29)',
+  name: 'PrismaClientInitializationError'
+}
+[next-auth][error][OAUTH_CALLBACK_HANDLER_ERROR] 
+https://next-auth.js.org/errors#oauth_callback_handler_error 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `host474737_twitterclone` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`. PrismaClientInitializationError: 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `host474737_twitterclone` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`.
+    at Cn.handleRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:7090)
+    at Cn.handleAndLogRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:6206)
+    at Cn.request (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:5926)
+    at async l (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:128:9968)
+    at async getUserByAccount (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@next-auth/prisma-adapter/dist/index.js:211:29) {
+  name: 'GetUserByAccountError',
+  code: undefined
+}
+prisma:warn Prisma doesn't know which engines to download for the Linux distro "undefined". Falling back to Prisma engines built "debian".
+Please report your experience by creating an issue at https://github.com/prisma/prisma/issues so we can add your distro to the list of known supported distros.
+[next-auth][error][adapter_error_getUserByAccount] 
+https://next-auth.js.org/errors#adapter_error_getuserbyaccount 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Can't reach database server at `localhost`:`3000`
+
+Please make sure your database server is running at `localhost`:`3000`. {
+  message: '\n' +
+    'Invalid `prisma.account.findUnique()` invocation:\n' +
+    '\n' +
+    '\n' +
+    "Can't reach database server at `localhost`:`3000`\n" +
+    '\n' +
+    'Please make sure your database server is running at `localhost`:`3000`.',
+  stack: 'PrismaClientInitializationError: \n' +
+    'Invalid `prisma.account.findUnique()` invocation:\n' +
+    '\n' +
+    '\n' +
+    "Can't reach database server at `localhost`:`3000`\n" +
+    '\n' +
+    'Please make sure your database server is running at `localhost`:`3000`.\n' +
+    '    at Cn.handleRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:7090)\n' +
+    '    at Cn.handleAndLogRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:6206)\n' +
+    '    at Cn.request (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:5926)\n' +
+    '    at async l (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:128:9968)\n' +
+    '    at async getUserByAccount (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@next-auth/prisma-adapter/dist/index.js:211:29)',
+  name: 'PrismaClientInitializationError'
+}
+[next-auth][error][OAUTH_CALLBACK_HANDLER_ERROR] 
+https://next-auth.js.org/errors#oauth_callback_handler_error 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Can't reach database server at `localhost`:`3000`
+
+Please make sure your database server is running at `localhost`:`3000`. PrismaClientInitializationError: 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Can't reach database server at `localhost`:`3000`
+
+Please make sure your database server is running at `localhost`:`3000`.
+    at Cn.handleRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:7090)
+    at Cn.handleAndLogRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:6206)
+    at Cn.request (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:5926)
+    at async l (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:128:9968)
+    at async getUserByAccount (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@next-auth/prisma-adapter/dist/index.js:211:29) {
+  name: 'GetUserByAccountError',
+  code: undefined
+}
+prisma:warn Prisma doesn't know which engines to download for the Linux distro "undefined". Falling back to Prisma engines built "debian".
+Please report your experience by creating an issue at https://github.com/prisma/prisma/issues so we can add your distro to the list of known supported distros.
+[next-auth][error][adapter_error_getUserByAccount] 
+https://next-auth.js.org/errors#adapter_error_getuserbyaccount 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `host474737_twitterclone` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`. {
+  message: '\n' +
+    'Invalid `prisma.account.findUnique()` invocation:\n' +
+    '\n' +
+    '\n' +
+    'Authentication failed against database server at `localhost`, the provided database credentials for `host474737_twitterclone` are not valid.\n' +
+    '\n' +
+    'Please make sure to provide valid database credentials for the database server at `localhost`.',
+  stack: 'PrismaClientInitializationError: \n' +
+    'Invalid `prisma.account.findUnique()` invocation:\n' +
+    '\n' +
+    '\n' +
+    'Authentication failed against database server at `localhost`, the provided database credentials for `host474737_twitterclone` are not valid.\n' +
+    '\n' +
+    'Please make sure to provide valid database credentials for the database server at `localhost`.\n' +
+    '    at Cn.handleRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:7090)\n' +
+    '    at Cn.handleAndLogRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:6206)\n' +
+    '    at Cn.request (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:5926)\n' +
+    '    at async l (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:128:9968)\n' +
+    '    at async getUserByAccount (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@next-auth/prisma-adapter/dist/index.js:211:29)',
+  name: 'PrismaClientInitializationError'
+}
+[next-auth][error][OAUTH_CALLBACK_HANDLER_ERROR] 
+https://next-auth.js.org/errors#oauth_callback_handler_error 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `host474737_twitterclone` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`. PrismaClientInitializationError: 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `host474737_twitterclone` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`.
+    at Cn.handleRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:7090)
+    at Cn.handleAndLogRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:6206)
+    at Cn.request (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:5926)
+    at async l (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:128:9968)
+    at async getUserByAccount (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@next-auth/prisma-adapter/dist/index.js:211:29) {
+  name: 'GetUserByAccountError',
+  code: undefined
+}
+prisma:warn Prisma doesn't know which engines to download for the Linux distro "undefined". Falling back to Prisma engines built "debian".
+Please report your experience by creating an issue at https://github.com/prisma/prisma/issues so we can add your distro to the list of known supported distros.
+[next-auth][error][adapter_error_getUserByAccount] 
+https://next-auth.js.org/errors#adapter_error_getuserbyaccount 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `host474737_twitterCloneDeployed` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`. {
+  message: '\n' +
+    'Invalid `prisma.account.findUnique()` invocation:\n' +
+    '\n' +
+    '\n' +
+    'Authentication failed against database server at `localhost`, the provided database credentials for `host474737_twitterCloneDeployed` are not valid.\n' +
+    '\n' +
+    'Please make sure to provide valid database credentials for the database server at `localhost`.',
+  stack: 'PrismaClientInitializationError: \n' +
+    'Invalid `prisma.account.findUnique()` invocation:\n' +
+    '\n' +
+    '\n' +
+    'Authentication failed against database server at `localhost`, the provided database credentials for `host474737_twitterCloneDeployed` are not valid.\n' +
+    '\n' +
+    'Please make sure to provide valid database credentials for the database server at `localhost`.\n' +
+    '    at Cn.handleRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:7090)\n' +
+    '    at Cn.handleAndLogRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:6206)\n' +
+    '    at Cn.request (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:5926)\n' +
+    '    at async l (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:128:9968)\n' +
+    '    at async getUserByAccount (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@next-auth/prisma-adapter/dist/index.js:211:29)',
+  name: 'PrismaClientInitializationError'
+}
+[next-auth][error][OAUTH_CALLBACK_HANDLER_ERROR] 
+https://next-auth.js.org/errors#oauth_callback_handler_error 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `host474737_twitterCloneDeployed` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`. PrismaClientInitializationError: 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `host474737_twitterCloneDeployed` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`.
+    at Cn.handleRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:7090)
+    at Cn.handleAndLogRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:6206)
+    at Cn.request (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:5926)
+    at async l (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:128:9968)
+    at async getUserByAccount (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@next-auth/prisma-adapter/dist/index.js:211:29) {
+  name: 'GetUserByAccountError',
+  code: undefined
+}
+prisma:warn Prisma doesn't know which engines to download for the Linux distro "undefined". Falling back to Prisma engines built "debian".
+Please report your experience by creating an issue at https://github.com/prisma/prisma/issues so we can add your distro to the list of known supported distros.
+[next-auth][error][adapter_error_getUserByAccount] 
+https://next-auth.js.org/errors#adapter_error_getuserbyaccount 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `host474737_xd` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`. {
+  message: '\n' +
+    'Invalid `prisma.account.findUnique()` invocation:\n' +
+    '\n' +
+    '\n' +
+    'Authentication failed against database server at `localhost`, the provided database credentials for `host474737_xd` are not valid.\n' +
+    '\n' +
+    'Please make sure to provide valid database credentials for the database server at `localhost`.',
+  stack: 'PrismaClientInitializationError: \n' +
+    'Invalid `prisma.account.findUnique()` invocation:\n' +
+    '\n' +
+    '\n' +
+    'Authentication failed against database server at `localhost`, the provided database credentials for `host474737_xd` are not valid.\n' +
+    '\n' +
+    'Please make sure to provide valid database credentials for the database server at `localhost`.\n' +
+    '    at Cn.handleRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:7090)\n' +
+    '    at Cn.handleAndLogRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:6206)\n' +
+    '    at Cn.request (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:5926)\n' +
+    '    at async l (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:128:9968)\n' +
+    '    at async getUserByAccount (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@next-auth/prisma-adapter/dist/index.js:211:29)',
+  name: 'PrismaClientInitializationError'
+}
+[next-auth][error][OAUTH_CALLBACK_HANDLER_ERROR] 
+https://next-auth.js.org/errors#oauth_callback_handler_error 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `host474737_xd` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`. PrismaClientInitializationError: 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `localhost`, the provided database credentials for `host474737_xd` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `localhost`.
+    at Cn.handleRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:7090)
+    at Cn.handleAndLogRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:6206)
+    at Cn.request (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:5926)
+    at async l (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:128:9968)
+    at async getUserByAccount (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@next-auth/prisma-adapter/dist/index.js:211:29) {
+  name: 'GetUserByAccountError',
+  code: undefined
+}
+prisma:warn Prisma doesn't know which engines to download for the Linux distro "undefined". Falling back to Prisma engines built "debian".
+Please report your experience by creating an issue at https://github.com/prisma/prisma/issues so we can add your distro to the list of known supported distros.
+[next-auth][error][adapter_error_getUserByAccount] 
+https://next-auth.js.org/errors#adapter_error_getuserbyaccount 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `host474737.hostido.net.pl`, the provided database credentials for `host474737_twitterCloneDeployed` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `host474737.hostido.net.pl`. {
+  message: '\n' +
+    'Invalid `prisma.account.findUnique()` invocation:\n' +
+    '\n' +
+    '\n' +
+    'Authentication failed against database server at `host474737.hostido.net.pl`, the provided database credentials for `host474737_twitterCloneDeployed` are not valid.\n' +
+    '\n' +
+    'Please make sure to provide valid database credentials for the database server at `host474737.hostido.net.pl`.',
+  stack: 'PrismaClientInitializationError: \n' +
+    'Invalid `prisma.account.findUnique()` invocation:\n' +
+    '\n' +
+    '\n' +
+    'Authentication failed against database server at `host474737.hostido.net.pl`, the provided database credentials for `host474737_twitterCloneDeployed` are not valid.\n' +
+    '\n' +
+    'Please make sure to provide valid database credentials for the database server at `host474737.hostido.net.pl`.\n' +
+    '    at Cn.handleRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:7090)\n' +
+    '    at Cn.handleAndLogRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:6206)\n' +
+    '    at Cn.request (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:5926)\n' +
+    '    at async l (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:128:9968)\n' +
+    '    at async getUserByAccount (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@next-auth/prisma-adapter/dist/index.js:211:29)',
+  name: 'PrismaClientInitializationError'
+}
+[next-auth][error][OAUTH_CALLBACK_HANDLER_ERROR] 
+https://next-auth.js.org/errors#oauth_callback_handler_error 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `host474737.hostido.net.pl`, the provided database credentials for `host474737_twitterCloneDeployed` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `host474737.hostido.net.pl`. PrismaClientInitializationError: 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `host474737.hostido.net.pl`, the provided database credentials for `host474737_twitterCloneDeployed` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `host474737.hostido.net.pl`.
+    at Cn.handleRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:7090)
+    at Cn.handleAndLogRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:6206)
+    at Cn.request (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:5926)
+    at async l (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:128:9968)
+    at async getUserByAccount (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@next-auth/prisma-adapter/dist/index.js:211:29) {
+  name: 'GetUserByAccountError',
+  code: undefined
+}
+[next-auth][error][adapter_error_getUserByAccount] 
+https://next-auth.js.org/errors#adapter_error_getuserbyaccount 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `host474737.hostido.net.pl`, the provided database credentials for `host474737_twitterCloneDeployed` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `host474737.hostido.net.pl`. {
+  message: '\n' +
+    'Invalid `prisma.account.findUnique()` invocation:\n' +
+    '\n' +
+    '\n' +
+    'Authentication failed against database server at `host474737.hostido.net.pl`, the provided database credentials for `host474737_twitterCloneDeployed` are not valid.\n' +
+    '\n' +
+    'Please make sure to provide valid database credentials for the database server at `host474737.hostido.net.pl`.',
+  stack: 'PrismaClientInitializationError: \n' +
+    'Invalid `prisma.account.findUnique()` invocation:\n' +
+    '\n' +
+    '\n' +
+    'Authentication failed against database server at `host474737.hostido.net.pl`, the provided database credentials for `host474737_twitterCloneDeployed` are not valid.\n' +
+    '\n' +
+    'Please make sure to provide valid database credentials for the database server at `host474737.hostido.net.pl`.\n' +
+    '    at Cn.handleRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:7090)\n' +
+    '    at Cn.handleAndLogRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:6206)\n' +
+    '    at Cn.request (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:5926)\n' +
+    '    at async l (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:128:9968)\n' +
+    '    at async getUserByAccount (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@next-auth/prisma-adapter/dist/index.js:211:29)',
+  name: 'PrismaClientInitializationError'
+}
+[next-auth][error][OAUTH_CALLBACK_HANDLER_ERROR] 
+https://next-auth.js.org/errors#oauth_callback_handler_error 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `host474737.hostido.net.pl`, the provided database credentials for `host474737_twitterCloneDeployed` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `host474737.hostido.net.pl`. PrismaClientInitializationError: 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `host474737.hostido.net.pl`, the provided database credentials for `host474737_twitterCloneDeployed` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `host474737.hostido.net.pl`.
+    at Cn.handleRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:7090)
+    at Cn.handleAndLogRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:6206)
+    at Cn.request (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:5926)
+    at async l (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:128:9968)
+    at async getUserByAccount (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@next-auth/prisma-adapter/dist/index.js:211:29) {
+  name: 'GetUserByAccountError',
+  code: undefined
+}
+prisma:warn Prisma doesn't know which engines to download for the Linux distro "undefined". Falling back to Prisma engines built "debian".
+Please report your experience by creating an issue at https://github.com/prisma/prisma/issues so we can add your distro to the list of known supported distros.
+prisma:warn Prisma doesn't know which engines to download for the Linux distro "undefined". Falling back to Prisma engines built "debian".
+Please report your experience by creating an issue at https://github.com/prisma/prisma/issues so we can add your distro to the list of known supported distros.
+[next-auth][error][adapter_error_getUserByAccount] 
+https://next-auth.js.org/errors#adapter_error_getuserbyaccount 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `127.0.0.1`, the provided database credentials for `host474737_twitterCloneDeployed` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `127.0.0.1`. {
+  message: '\n' +
+    'Invalid `prisma.account.findUnique()` invocation:\n' +
+    '\n' +
+    '\n' +
+    'Authentication failed against database server at `127.0.0.1`, the provided database credentials for `host474737_twitterCloneDeployed` are not valid.\n' +
+    '\n' +
+    'Please make sure to provide valid database credentials for the database server at `127.0.0.1`.',
+  stack: 'PrismaClientInitializationError: \n' +
+    'Invalid `prisma.account.findUnique()` invocation:\n' +
+    '\n' +
+    '\n' +
+    'Authentication failed against database server at `127.0.0.1`, the provided database credentials for `host474737_twitterCloneDeployed` are not valid.\n' +
+    '\n' +
+    'Please make sure to provide valid database credentials for the database server at `127.0.0.1`.\n' +
+    '    at Cn.handleRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:7090)\n' +
+    '    at Cn.handleAndLogRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:6206)\n' +
+    '    at Cn.request (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:5926)\n' +
+    '    at async l (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:128:9968)\n' +
+    '    at async getUserByAccount (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@next-auth/prisma-adapter/dist/index.js:211:29)',
+  name: 'PrismaClientInitializationError'
+}
+[next-auth][error][OAUTH_CALLBACK_HANDLER_ERROR] 
+https://next-auth.js.org/errors#oauth_callback_handler_error 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `127.0.0.1`, the provided database credentials for `host474737_twitterCloneDeployed` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `127.0.0.1`. PrismaClientInitializationError: 
+Invalid `prisma.account.findUnique()` invocation:
+
+
+Authentication failed against database server at `127.0.0.1`, the provided database credentials for `host474737_twitterCloneDeployed` are not valid.
+
+Please make sure to provide valid database credentials for the database server at `127.0.0.1`.
+    at Cn.handleRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:7090)
+    at Cn.handleAndLogRequestError (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:6206)
+    at Cn.request (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:123:5926)
+    at async l (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@prisma/client/runtime/library.js:128:9968)
+    at async getUserByAccount (/home/host474737/nodevenv/domains/host474737.xce.pl/app/18/lib/node_modules/@next-auth/prisma-adapter/dist/index.js:211:29) {
+  name: 'GetUserByAccountError',
+  code: undefined
+}
+prisma:warn Prisma doesn't know which engines to download for the Linux distro "undefined". Falling back to Prisma engines built "debian".
+Please report your experience by creating an issue at https://github.com/prisma/prisma/issues so we can add your distro to the list of known supported distros.
