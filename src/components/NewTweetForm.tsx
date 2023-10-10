@@ -43,7 +43,7 @@ function Form() {
 
     function handleSubmit(e: FormEvent) {
         e.preventDefault()
-        createTweet.mutate({content: inputValue})
+        createTweet.mutate({text: inputValue})
     }
 
     return <form onSubmit={handleSubmit} className="flex flex-col gap-2 border-b px-4 py-y">
